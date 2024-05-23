@@ -1,0 +1,23 @@
+{
+  "name": "utility-soup",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Practical utility functions for React projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eadanie1/utility-soup.git"
+  },
+  "keywords": [
+    "utility-functions"
+  ],
+  "author": "eadanie1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eadanie1/utility-soup/issues"
+  },
+  "homepage": "https://github.com/eadanie1/utility-soup#readme"
+}
