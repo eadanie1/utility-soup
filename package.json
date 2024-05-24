@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "type": "module",
   "description": "Practical utility functions for React projects",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/eadanie1/utility-soup/issues"
   },
-  "homepage": "https://github.com/eadanie1/utility-soup#readme"
+  "homepage": "https://github.com/eadanie1/utility-soup#readme",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
 }
