@@ -1,10 +1,9 @@
-
-function increment(count: number): number {
+function increment(count: number = 0): number {
   count++;
   return count;
 }
 
-function decrement(count: number): number {
+function decrement(count: number = 0): number {
   count--;
   return count;
 }
@@ -23,3 +22,5 @@ const dateToText = function(): string {
 const sortArray = (array: number[]): number[] => {
   return array.sort();
 };
+
+export { increment, decrement, upperCaseify, dateToText, sortArray };
