@@ -1,6 +1,6 @@
 {
   "name": "utility-soup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Practical utility functions for React projects",
   "main": "dist/index.js",
